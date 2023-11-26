@@ -2,9 +2,9 @@ import React from "react";
 
 const PlanItem = ({ data, color, price, heading, checklist }) => {
   return (
-    <div className="w-[30%] flex flex-col bg-white shadow-2xl pb-6 rounded-lg">
+    <div className="md:w-[30%] w-full flex flex-col bg-white shadow-2xl pb-6 rounded-lg">
       <div className={`py-2 text-center text-white rounded-t-lg ${color} font-Poppins uppercase`}>{heading}</div>
-      <div className="border-b-[1px] mx-4 border-black border-opacity-20 py-5 mt-5 text-center text-3xl font-semibold font-Poppins">{price}</div>
+      <div className="border-b-[1px] mx-4 border-black border-opacity-20 py-5 mt-5 text-xl text-center md:text-3xl font-semibold font-Poppins">{price}</div>
       <div className="mx-4 mt-4" key={Math.random()}>
         {data.map((e, i) => (
           <div className="flex items-center gap-3 mb-4" key={i}>

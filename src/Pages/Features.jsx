@@ -15,7 +15,7 @@ const Features = () => {
           </p>
         </div>
 
-        <div className="flex flex-wrap gap-8">
+        <div className="flex flex-wrap w-full gap-8 ">
           <FeaturesItem>
             Our live chat feature allows users to communicate with website visitors in real-time through a chat window. This enables users to provide immediate support and assistance to their
             customers, improving their experience on the website.
